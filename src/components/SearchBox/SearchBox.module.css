@@ -12,3 +12,7 @@
 .searchBox input{
 width: 100%;
 }
+.searchBox input:focus-visible {
+    /* outline: none; */
+    background-color: aquamarine;
+  }

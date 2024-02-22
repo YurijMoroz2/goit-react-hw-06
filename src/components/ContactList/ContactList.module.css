@@ -34,3 +34,19 @@
            flex-basis: calc((100% - 10px) / 4);
     }
   }
+  /* ------------------ */
+  .contactBoxContact{
+    display: flex;
+    justify-content: space-between;
+}
+.contactBoxName{
+    text-align: start;
+}
+.contactBoxNumber{
+    composes:contactBoxName;
+}
+.contactBoxButton{
+    margin: auto 0;
+    width: 83px;
+    height: 41px;
+}
